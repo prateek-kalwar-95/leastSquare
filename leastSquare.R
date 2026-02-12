@@ -354,7 +354,7 @@ p4 <- ggplot(sse_cum_int, aes(frame, SSE)) +
     y = "Residual Sum of Squares (RSS)"
   )
 
-viz <- list(
+viz <- animint(
   slopePlot = p1,
   slopeRSS = p2,
   interceptPlot = p3,
